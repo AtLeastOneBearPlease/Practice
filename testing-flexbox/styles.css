@@ -43,6 +43,12 @@
     align-items: center;
 }
 
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
 .photo-grid-container {
     display: flex;
     justify-content: center;
@@ -53,7 +59,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   
